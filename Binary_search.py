@@ -15,8 +15,9 @@ def binary_search(array, value):
             lower_bound = midpoint + 1
         elif value == value_at_midpoint:
             return midpoint, steps
-
-        return None, steps
+            
+    return None, steps
 
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 binary_search_r, binary_search_steps = binary_search(data, 5)
+print(binary_search_r, binary_search_steps)
