@@ -17,3 +17,6 @@ def binary_search(array, value):
             return midpoint, steps
 
         return None, steps
+
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+binary_search_r, binary_search_steps = binary_search(data, 5)
